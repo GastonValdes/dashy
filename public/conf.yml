@@ -1,6 +1,6 @@
 ---
 # Page meta info, like heading, footer text and nav links
-pageInfo:
+ pageInfo:
   title: Dashy
   description: Welcome to your new dashboard!
   navLinks:
@@ -14,41 +14,6 @@ appConfig:
   iconSize: medium
   language: es
 sections:
-  - name: Getting Started
-    icon: fas fa-rocket
-    items:
-      - title: Dashy Live
-        description: Development a project management links for Dashy
-        icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-        url: https://live.dashy.to/
-        target: newtab
-        id: 0_1481_dashylive
-      - title: GitHub
-        description: Source Code, Issues and Pull Requests
-        url: https://github.com/lissy93/dashy
-        icon: favicon
-        id: 1_1481_github
-      - title: Docs
-        description: Configuring & Usage Documentation
-        provider: Dashy.to
-        icon: far fa-book
-        url: https://dashy.to/docs
-        id: 2_1481_docs
-      - title: Showcase
-        description: See how others are using Dashy
-        url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-        icon: far fa-grin-hearts
-        id: 3_1481_showcase
-      - title: Config Guide
-        description: See full list of configuration options
-        url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-        icon: fas fa-wrench
-        id: 4_1481_configguide
-      - title: Support
-        description: Get help with Dashy, raise a bug, or get in contact
-        url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-        icon: far fa-hands-helping
-        id: 5_1481_support
   - name: Raspi3
     icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/raspberrypi.png
     displayData:
@@ -118,6 +83,13 @@ sections:
         url: http://192.168.0.1/
         target: newtab
         id: 3_393_mikrotik
+      - title: HP
+        icon: >-
+          https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/HP_New_Logo_2D.svg/600px-HP_New_Logo_2D.svg.png
+        url: https://192.168.0.15/hp/device/
+        target: newtab
+        statusCheck: true
+        id: 4_393_hp
   - name: Services
     icon: >-
       https://e7.pngegg.com/pngimages/928/235/png-clipart-internet-world-wide-web-world-wide-web-consortium-world-wide-web-web-design-search-engine-optimization.png
@@ -177,4 +149,26 @@ sections:
         url: https://mail.google.com
         target: newtab
         id: 8_836_gmail
+  - name: Raspi3-B
+    icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/raspberrypi.png
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Portainer
+        description: Docker Management
+        icon: >-
+          https://github.com/walkxcode/Dashboard-Icons/raw/main/png/portainer.png
+        url: http://192.168.0.10:9000/#!/auth
+        target: newtab
+        id: 0_673_portainer
+      - title: Pi-Hole
+        description: DNS
+        icon: https://github.com/NX211/homer-icons/raw/master/png/pihole.png
+        url: http://192.168.0.10/admin/
+        target: newtab
+        id: 1_673_pihole
 
