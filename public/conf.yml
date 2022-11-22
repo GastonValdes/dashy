@@ -83,13 +83,6 @@ sections:
         url: http://192.168.0.1/
         target: newtab
         id: 3_393_mikrotik
-      - title: HP
-        icon: >-
-          https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/HP_New_Logo_2D.svg/600px-HP_New_Logo_2D.svg.png
-        url: https://192.168.0.15/hp/device/
-        target: newtab
-        statusCheck: true
-        id: 4_393_hp
   - name: Services
     icon: >-
       https://e7.pngegg.com/pngimages/928/235/png-clipart-internet-world-wide-web-world-wide-web-consortium-world-wide-web-web-design-search-engine-optimization.png
