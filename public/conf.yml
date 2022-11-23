@@ -4,8 +4,8 @@ pageInfo:
   title: Family
   description: Welcome to our Family dashboard!
   navLinks:
-    - title: GitHub
-      path: https://github.com/Lissy93/dashy
+    - title: Config Update
+      path: https://github.com/GastonValdes/dashy/blob/master/public/conf.yml
     - title: Documentation
       path: https://dashy.to/docs
 appConfig:
