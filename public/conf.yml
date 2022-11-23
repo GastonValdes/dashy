@@ -104,26 +104,6 @@ sections:
         url: https://www.spotify.com/
         target: newtab
         id: 1_836_spotify
-      - title: LinkedIn
-        icon: https://cdn-icons-png.flaticon.com/512/174/174857.png
-        url: https://linkedin.com
-        target: newtab
-        id: 2_836_linkedin
-      - title: Instagram
-        icon: >-
-          https://github.com/walkxcode/Dashboard-Icons/raw/main/png/instagram.png
-        url: https://www.instagram.com/
-        target: newtab
-        id: 3_836_instagram
-      - title: youtube
-        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/youtube.png
-        url: https://www.youtube.com/
-        target: newtab
-        id: 4_836_youtube
-      - title: Facebook
-        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/facebook.png
-        url: https://facebook.com
-        id: 5_836_facebook
       - title: Bitwarden
         icon: >-
           https://github.com/walkxcode/Dashboard-Icons/raw/main/png/bitwarden.png
@@ -142,6 +122,41 @@ sections:
         url: https://mail.google.com
         target: newtab
         id: 8_836_gmail
+      - title: OneDrive
+        description: Microsoft Cloud Storage
+        icon: >-
+          https://1000marcas.net/wp-content/uploads/2020/10/OneDrive-Logo-500x283.png
+        url: https://onedrive.live.com/
+        target: newtab
+        id: 9_836_onedrive
+      - title: Google Drive
+        description: Cloud Storage
+        icon: >-
+          https://logodownload.org/wp-content/uploads/2020/04/google-drive-logo-0-1.png
+        url: https://drive.google.com/
+        target: newtab
+        id: 10_836_googledrive
+      - title: Google Photos
+        description: Online Photo Backup
+        icon: >-
+          https://1000logos.net/wp-content/uploads/2020/05/Google-Photos-logo-400x400.png
+        url: https://photos.google.com/
+        target: newtab
+        id: 11_836_googlephotos
+      - title: CrunchyRoll
+        description: Anime streaming
+        icon: >-
+          https://upload.wikimedia.org/wikipedia/commons/7/7a/Crunchyroll_logo_2012v.png
+        url: https://www.crunchyroll.com/
+        target: newtab
+        id: 12_836_crunchyroll
+      - title: AnimeFLV
+        description: Anime streamming
+        icon: >-
+          https://scontent.faep8-2.fna.fbcdn.net/v/t39.30808-6/309229728_179772317893317_8095654386696960083_n.png?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeF35APHRMW4EUBLVF8j-ag4RrDzJvZPvQVGsPMm9k-9Bc4a9dcyYEGT9XBwU3zRI18&_nc_ohc=XpR9j3YZLwQAX_Jtk55&_nc_ht=scontent.faep8-2.fna&oh=00_AfBbQmYNagi70oGR9s4bjIacSUwrYE0PPw5yxmcpi7Uf7A&oe=6382F762
+        url: https://www3.animeflv.net/
+        target: newtab
+        id: 13_836_animeflv
   - name: Raspi3-B
     icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/raspberrypi.png
     displayData:
@@ -164,3 +179,38 @@ sections:
         url: http://192.168.0.10/admin/
         target: newtab
         id: 1_673_pihole
+  - name: Social Media
+    icon: >-
+      https://img.freepik.com/premium-vector/popular-social-media-icons_248162-157.jpg?w=2000
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: LinkedIn
+        description: Working Social Netwok
+        icon: https://cdn-icons-png.flaticon.com/512/174/174857.png
+        url: https://www.linkedin.com/feed/
+        target: newtab
+        id: 0_1115_linkedin
+      - title: Instagram
+        description: Photo centric Social Media
+        icon: >-
+          https://github.com/walkxcode/Dashboard-Icons/raw/main/png/instagram.png
+        url: https://www.instagram.com/
+        target: newtab
+        id: 1_1115_instagram
+      - title: FaceBook
+        description: Social media for old people
+        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/facebook.png
+        url: https://www.facebook.com/
+        target: newtab
+        id: 2_1115_facebook
+      - title: Youtube
+        description: Video Centric Social Media
+        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/youtube.png
+        url: http://youtube.com/
+        target: newtab
+        id: 3_1115_youtube
