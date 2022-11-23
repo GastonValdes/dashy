@@ -142,6 +142,13 @@ sections:
         url: https://mail.google.com
         target: newtab
         id: 8_836_gmail
+      - title: 'Crunchy Roll '
+        description: Anime Streamming
+        icon: >-
+          https://upload.wikimedia.org/wikipedia/commons/7/7a/Crunchyroll_logo_2012v.png
+        url: https://www.crunchyroll.com
+        target: newtab
+        id: 9_836_crunchyroll
   - name: Raspi3-B
     icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/raspberrypi.png
     displayData:
@@ -164,4 +171,3 @@ sections:
         url: http://192.168.0.10/admin/
         target: newtab
         id: 1_673_pihole
-
