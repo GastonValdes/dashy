@@ -88,17 +88,11 @@ sections:
       https://e7.pngegg.com/pngimages/928/235/png-clipart-internet-world-wide-web-world-wide-web-consortium-world-wide-web-web-design-search-engine-optimization.png
     displayData:
       sortBy: default
-      rows: 2
+      rows: 1
       cols: 2
       collapsed: false
       hideForGuests: false
     items:
-      - title: Netflix
-        icon: >-
-          https://w7.pngwing.com/pngs/153/31/png-transparent-netflix-macos-bigsur-icon.png
-        url: https://www.netflix.com/browse
-        target: newtab
-        id: 0_836_netflix
       - title: Spotify
         icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/spotify.png
         url: https://www.spotify.com/
@@ -109,54 +103,40 @@ sections:
           https://github.com/walkxcode/Dashboard-Icons/raw/main/png/bitwarden.png
         url: https://bitwarden.com/
         target: newtab
-        id: 6_836_bitwarden
+        id: 2_836_bitwarden
       - title: Outlook
         icon: >-
           https://filestore.community.support.microsoft.com/api/images/6ad59a75-5e01-44b1-aecc-25b31984cfb3?upload=true
         url: https://outlook.com
         target: newtab
-        id: 7_836_outlook
+        id: 3_836_outlook
       - title: gmail
         icon: >-
           https://graffica.info/wp-content/uploads/2020/10/antiguo-logo-de-gmail.jpg
         url: https://mail.google.com
         target: newtab
-        id: 8_836_gmail
+        id: 4_836_gmail
       - title: OneDrive
         description: Microsoft Cloud Storage
         icon: >-
           https://1000marcas.net/wp-content/uploads/2020/10/OneDrive-Logo-500x283.png
         url: https://onedrive.live.com/
         target: newtab
-        id: 9_836_onedrive
+        id: 5_836_onedrive
       - title: Google Drive
         description: Cloud Storage
         icon: >-
           https://logodownload.org/wp-content/uploads/2020/04/google-drive-logo-0-1.png
         url: https://drive.google.com/
         target: newtab
-        id: 10_836_googledrive
+        id: 6_836_googledrive
       - title: Google Photos
         description: Online Photo Backup
         icon: >-
           https://1000logos.net/wp-content/uploads/2020/05/Google-Photos-logo-400x400.png
         url: https://photos.google.com/
         target: newtab
-        id: 11_836_googlephotos
-      - title: CrunchyRoll
-        description: Anime streaming
-        icon: >-
-          https://upload.wikimedia.org/wikipedia/commons/7/7a/Crunchyroll_logo_2012v.png
-        url: https://www.crunchyroll.com/
-        target: newtab
-        id: 12_836_crunchyroll
-      - title: AnimeFLV
-        description: Anime streamming
-        icon: >-
-          https://scontent.faep8-2.fna.fbcdn.net/v/t39.30808-6/309229728_179772317893317_8095654386696960083_n.png?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeF35APHRMW4EUBLVF8j-ag4RrDzJvZPvQVGsPMm9k-9Bc4a9dcyYEGT9XBwU3zRI18&_nc_ohc=XpR9j3YZLwQAX_Jtk55&_nc_ht=scontent.faep8-2.fna&oh=00_AfBbQmYNagi70oGR9s4bjIacSUwrYE0PPw5yxmcpi7Uf7A&oe=6382F762
-        url: https://www3.animeflv.net/
-        target: newtab
-        id: 13_836_animeflv
+        id: 7_836_googlephotos
   - name: Raspi3-B
     icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/raspberrypi.png
     displayData:
@@ -214,3 +194,39 @@ sections:
         url: http://youtube.com/
         target: newtab
         id: 3_1115_youtube
+  - name: Streamming
+    icon: >-
+      https://philosophy.utoronto.ca/wp-content/uploads/kisspng-art-film-logo-cinema-clip-art-movie-logo-cliparts-5ab587fb1000c4.1651552415218462670656.jpg
+    displayData:
+      sortBy: default
+      rows: 2
+      cols: 2
+      collapsed: false
+      hideForGuests: false
+    items: 
+      - title: Gas-Flix
+        description: Movies and Series from the local NAS
+        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/plex-new.png
+        url: https://www.plex.tv/
+        target: newtab
+        id: 0_393_plex
+      - title: Netflix
+        icon: >-
+          https://w7.pngwing.com/pngs/153/31/png-transparent-netflix-macos-bigsur-icon.png
+        url: https://www.netflix.com/browse
+        target: newtab
+        id: 0_836_netflix
+      - title: CrunchyRoll
+        description: Anime streaming
+        icon: >-
+          https://upload.wikimedia.org/wikipedia/commons/7/7a/Crunchyroll_logo_2012v.png
+        url: https://www.crunchyroll.com/
+        target: newtab
+        id: 8_836_crunchyroll
+      - title: AnimeFLV
+        description: Anime streamming
+        icon: >-
+          https://scontent.faep8-2.fna.fbcdn.net/v/t39.30808-6/309229728_179772317893317_8095654386696960083_n.png?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeF35APHRMW4EUBLVF8j-ag4RrDzJvZPvQVGsPMm9k-9Bc4a9dcyYEGT9XBwU3zRI18&_nc_ohc=XpR9j3YZLwQAX_Jtk55&_nc_ht=scontent.faep8-2.fna&oh=00_AfBbQmYNagi70oGR9s4bjIacSUwrYE0PPw5yxmcpi7Uf7A&oe=6382F762
+        url: https://www3.animeflv.net/
+        target: newtab
+        id: 9_836_animeflv
