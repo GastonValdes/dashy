@@ -14,17 +14,19 @@ appConfig:
   iconSize: medium
   language: es
 sections:
-- type: clock
-  options:
-    timeZone: Europe/London
-    format: en-GB
-    hideDate: false
-- type: weather-forecast
-  options:
-    city: Buenos Aires
-    numDays: 5
-    apiKey: fa3318e26d1a399671574cf22663927c
-    units: metric
+ - name: info
+ widgets:
+   - type: clock
+     options:
+      timeZone: Europe/London
+      format: en-GB
+      hideDate: false
+    - type: weather-forecast
+      options:
+      city: Buenos Aires
+      numDays: 5
+      apiKey: fa3318e26d1a399671574cf22663927c
+      units: metric
   - name: Raspi3
     icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/raspberrypi.png
     displayData:
