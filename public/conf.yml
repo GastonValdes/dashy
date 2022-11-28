@@ -14,6 +14,11 @@ appConfig:
   iconSize: medium
   language: es
 sections:
+- type: clock
+  options:
+    timeZone: Europe/London
+    format: en-GB
+    hideDate: false
 - type: weather-forecast
   options:
     city: Buenos Aires
