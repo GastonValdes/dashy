@@ -15,6 +15,13 @@ appConfig:
   language: es
 sections:
  - name: info
+   icon: https://www.shutterstock.com/image-vector/utility-meter-icon-smart-600w-1184586529.jpg
+   displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
  widgets:
    - type: clock
      options:
