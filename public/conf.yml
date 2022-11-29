@@ -82,7 +82,7 @@ sections:
       - title: Plex
         description: Gas-Flix
         icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/plex-new.png
-        url: https://www.plex.tv/
+        url: https://app.plex.tv/
         target: newtab
         id: 0_393_plex
       - title: NAS
@@ -227,7 +227,7 @@ sections:
       - title: Gas-Flix
         description: Movies and Series from the local NAS
         icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/plex-new.png
-        url: https://www.plex.tv/
+        url: https://app.plex.tv/
         target: newtab
         id: 0_393_plex
       - title: Netflix
