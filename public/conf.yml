@@ -28,6 +28,96 @@ sections:
         timeZone: Europe/London
         format: en-GB
         hideDate: false
+  - name: Services
+    icon: >-
+      https://e7.pngegg.com/pngimages/928/235/png-clipart-internet-world-wide-web-world-wide-web-consortium-world-wide-web-web-design-search-engine-optimization.png
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Spotify
+        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/spotify.png
+        url: https://www.spotify.com/
+        target: newtab
+        id: 0_836_spotify
+      - title: Bitwarden
+        icon: >-
+          https://github.com/walkxcode/Dashboard-Icons/raw/main/png/bitwarden.png
+        url: https://bitwarden.com/
+        target: newtab
+        id: 1_836_bitwarden
+      - title: Outlook
+        icon: >-
+          https://filestore.community.support.microsoft.com/api/images/6ad59a75-5e01-44b1-aecc-25b31984cfb3?upload=true
+        url: https://outlook.com
+        target: newtab
+        id: 2_836_outlook
+      - title: gmail
+        icon: >-
+          https://graffica.info/wp-content/uploads/2020/10/antiguo-logo-de-gmail.jpg
+        url: https://mail.google.com
+        target: newtab
+        id: 3_836_gmail
+      - title: OneDrive
+        description: Microsoft Cloud Storage
+        icon: >-
+          https://1000marcas.net/wp-content/uploads/2020/10/OneDrive-Logo-500x283.png
+        url: https://onedrive.live.com/
+        target: newtab
+        id: 4_836_onedrive
+      - title: Google Drive
+        description: Cloud Storage
+        icon: >-
+          https://logodownload.org/wp-content/uploads/2020/04/google-drive-logo-0-1.png
+        url: https://drive.google.com/
+        target: newtab
+        id: 5_836_googledrive
+      - title: Google Photos
+        description: Online Photo Backup
+        icon: >-
+          https://1000logos.net/wp-content/uploads/2020/05/Google-Photos-logo-400x400.png
+        url: https://photos.google.com/
+        target: newtab
+        id: 6_836_googlephotos
+  - name: Streamming
+    icon: >-
+      https://philosophy.utoronto.ca/wp-content/uploads/kisspng-art-film-logo-cinema-clip-art-movie-logo-cliparts-5ab587fb1000c4.1651552415218462670656.jpg
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Gas-Flix
+        description: Movies and Series from the local NAS
+        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/plex-new.png
+        url: https://app.plex.tv/
+        target: newtab
+        id: 0_1047_gasflix
+      - title: Netflix
+        icon: >-
+          https://w7.pngwing.com/pngs/153/31/png-transparent-netflix-macos-bigsur-icon.png
+        url: https://www.netflix.com/browse
+        target: newtab
+        id: 1_1047_netflix
+      - title: CrunchyRoll
+        description: Anime streaming
+        icon: >-
+          https://upload.wikimedia.org/wikipedia/commons/7/7a/Crunchyroll_logo_2012v.png
+        url: https://www.crunchyroll.com/
+        target: newtab
+        id: 2_1047_crunchyroll
+      - title: AnimeFLV
+        description: Anime streamming
+        icon: >-
+          https://lh3.googleusercontent.com/Z_Zj3YaevE9-5GL48C8FSOOJ-Ugi4EMAAymCn3tK7byZpmgPIlY0X6Ui6zrbOWFJDQ
+        url: https://www3.animeflv.net/
+        target: newtab
+        id: 3_1047_animeflv
   - name: Raspi3
     icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/raspberrypi.png
     displayData:
@@ -97,60 +187,6 @@ sections:
         url: http://192.168.0.1/
         target: newtab
         id: 3_393_mikrotik
-  - name: Services
-    icon: >-
-      https://e7.pngegg.com/pngimages/928/235/png-clipart-internet-world-wide-web-world-wide-web-consortium-world-wide-web-web-design-search-engine-optimization.png
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: Spotify
-        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/spotify.png
-        url: https://www.spotify.com/
-        target: newtab
-        id: 0_836_spotify
-      - title: Bitwarden
-        icon: >-
-          https://github.com/walkxcode/Dashboard-Icons/raw/main/png/bitwarden.png
-        url: https://bitwarden.com/
-        target: newtab
-        id: 1_836_bitwarden
-      - title: Outlook
-        icon: >-
-          https://filestore.community.support.microsoft.com/api/images/6ad59a75-5e01-44b1-aecc-25b31984cfb3?upload=true
-        url: https://outlook.com
-        target: newtab
-        id: 2_836_outlook
-      - title: gmail
-        icon: >-
-          https://graffica.info/wp-content/uploads/2020/10/antiguo-logo-de-gmail.jpg
-        url: https://mail.google.com
-        target: newtab
-        id: 3_836_gmail
-      - title: OneDrive
-        description: Microsoft Cloud Storage
-        icon: >-
-          https://1000marcas.net/wp-content/uploads/2020/10/OneDrive-Logo-500x283.png
-        url: https://onedrive.live.com/
-        target: newtab
-        id: 4_836_onedrive
-      - title: Google Drive
-        description: Cloud Storage
-        icon: >-
-          https://logodownload.org/wp-content/uploads/2020/04/google-drive-logo-0-1.png
-        url: https://drive.google.com/
-        target: newtab
-        id: 5_836_googledrive
-      - title: Google Photos
-        description: Online Photo Backup
-        icon: >-
-          https://1000logos.net/wp-content/uploads/2020/05/Google-Photos-logo-400x400.png
-        url: https://photos.google.com/
-        target: newtab
-        id: 6_836_googlephotos
   - name: Raspi3-B
     icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/raspberrypi.png
     displayData:
@@ -208,39 +244,3 @@ sections:
         url: http://youtube.com/
         target: newtab
         id: 3_1115_youtube
-  - name: Streamming
-    icon: >-
-      https://philosophy.utoronto.ca/wp-content/uploads/kisspng-art-film-logo-cinema-clip-art-movie-logo-cliparts-5ab587fb1000c4.1651552415218462670656.jpg
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: Gas-Flix
-        description: Movies and Series from the local NAS
-        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/plex-new.png
-        url: https://app.plex.tv/
-        target: newtab
-        id: 0_1047_gasflix
-      - title: Netflix
-        icon: >-
-          https://w7.pngwing.com/pngs/153/31/png-transparent-netflix-macos-bigsur-icon.png
-        url: https://www.netflix.com/browse
-        target: newtab
-        id: 1_1047_netflix
-      - title: CrunchyRoll
-        description: Anime streaming
-        icon: >-
-          https://upload.wikimedia.org/wikipedia/commons/7/7a/Crunchyroll_logo_2012v.png
-        url: https://www.crunchyroll.com/
-        target: newtab
-        id: 2_1047_crunchyroll
-      - title: AnimeFLV
-        description: Anime streamming
-        icon: >-
-          https://lh3.googleusercontent.com/Z_Zj3YaevE9-5GL48C8FSOOJ-Ugi4EMAAymCn3tK7byZpmgPIlY0X6Ui6zrbOWFJDQ
-        url: https://www3.animeflv.net/
-        target: newtab
-        id: 3_1047_animeflv
