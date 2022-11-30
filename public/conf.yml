@@ -14,9 +14,9 @@ appConfig:
   iconSize: medium
   language: es
 sections:
- - name: info
-   icon: https://www.shutterstock.com/image-vector/utility-meter-icon-smart-600w-1184586529.jpg
-   displayData:
+  - name: info
+    icon: https://www.shutterstock.com/image-vector/utility-meter-icon-smart-600w-1184586529.jpg
+    displayData:
       sortBy: alphabetical
       rows: 1
       cols: 1
