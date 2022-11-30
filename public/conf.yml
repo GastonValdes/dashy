@@ -30,7 +30,7 @@ sections:
         hideDate: false
       - type: weather-forecast
         options:
-        city: Buenos Aires
+        city: London
         numDays: 5
         apiKey: fa3318e26d1a399671574cf22663927c
         units: metric
