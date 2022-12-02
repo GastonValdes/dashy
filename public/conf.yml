@@ -23,14 +23,17 @@ sections:
       collapsed: false
       hideForGuests: false
     widgets:
-      - type: pi-hole-stats
-        options:
-        hostname: http://192.168.0.10
       - type: clock
         options:
         timeZone: Europe/London
         format: en-GB
         hideDate: false
+      - type: pi-hole-stats
+        options:
+        hostname: http://192.168.0.10/admin
+      - type: pi-hole-traffic
+        options:
+        hostname: http://192.168.0.10
   - name: Services
     icon: >-
       https://e7.pngegg.com/pngimages/928/235/png-clipart-internet-world-wide-web-world-wide-web-consortium-world-wide-web-web-design-search-engine-optimization.png
