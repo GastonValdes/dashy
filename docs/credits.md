@@ -25,6 +25,13 @@
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/GastonValdes">
+            <img src="https://avatars.githubusercontent.com/u/22820186?v=4" width="80;" alt="GastonValdes"/>
+            <br />
+            <sub><b>Gaston</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/marekful">
             <img src="https://avatars.githubusercontent.com/u/10281476?v=4" width="80;" alt="marekful"/>
             <br />
@@ -44,27 +51,20 @@
             <br />
             <sub><b>Kenneth Church</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/snyk-bot">
             <img src="https://avatars.githubusercontent.com/u/19733683?v=4" width="80;" alt="snyk-bot"/>
             <br />
             <sub><b>Snyk Bot</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/pinarruiz">
             <img src="https://avatars.githubusercontent.com/u/37040888?v=4" width="80;" alt="pinarruiz"/>
             <br />
             <sub><b>Alejandro Pinar Ruiz</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/GastonValdes">
-            <img src="https://avatars.githubusercontent.com/u/22820186?v=4" width="80;" alt="GastonValdes"/>
-            <br />
-            <sub><b>Gaston</b></sub>
         </a>
     </td>
     <td align="center">
