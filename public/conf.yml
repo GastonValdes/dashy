@@ -1,47 +1,406 @@
 ---
 # Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
+  title: Valdés Family
+  description: Welcome to our Family dashboard!
   navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
-
-# Optional app settings and configuration
+    - title: Config Update
+      path: https://github.com/GastonValdes/dashy/blob/master/public/conf.yml
+    - title: Documentation
+      path: https://dashy.to/docs
 appConfig:
-  theme: colorful
-
-# Main content - An array of sections, each containing an array of items
+  theme: lissy
+  layout: auto
+  iconSize: medium
+  language: es
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
-  items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
-    target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
-  
+  - name: info
+    icon: https://www.shutterstock.com/image-vector/utility-meter-icon-smart-600w-1184586529.jpg
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    widgets:
+      - type: clock
+        options:
+        timeZone: Europe/London
+        format: en-GB
+        hideDate: false
+  - name: Services
+    icon: >-
+      https://e7.pngegg.com/pngimages/928/235/png-clipart-internet-world-wide-web-world-wide-web-consortium-world-wide-web-web-design-search-engine-optimization.png
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 2
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Spotify
+        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/spotify.png
+        url: https://www.spotify.com/
+        target: newtab
+        id: 0_836_spotify
+        statusCheck: true
+      - title: Bitwarden
+        icon: >-
+          https://github.com/walkxcode/Dashboard-Icons/raw/main/png/bitwarden.png
+        url: https://bitwarden.com/
+        target: newtab
+        id: 1_836_bitwarden
+        statusCheck: true
+      - title: Outlook
+        icon: >-
+          https://filestore.community.support.microsoft.com/api/images/6ad59a75-5e01-44b1-aecc-25b31984cfb3?upload=true
+        url: https://outlook.com
+        target: newtab
+        id: 2_836_outlook
+        statusCheck: true
+      - title: gmail
+        icon: >-
+          https://graffica.info/wp-content/uploads/2020/10/antiguo-logo-de-gmail.jpg
+        url: https://mail.google.com
+        target: newtab
+        id: 3_836_gmail
+        statusCheck: true
+      - title: OneDrive
+        description: Microsoft Cloud Storage
+        icon: >-
+          https://1000marcas.net/wp-content/uploads/2020/10/OneDrive-Logo-500x283.png
+        url: https://onedrive.live.com/
+        target: newtab
+        id: 4_836_onedrive
+        statusCheck: true
+      - title: Google Drive
+        description: Cloud Storage
+        icon: >-
+          https://logodownload.org/wp-content/uploads/2020/04/google-drive-logo-0-1.png
+        url: https://drive.google.com/
+        target: newtab
+        id: 5_836_googledrive
+        statusCheck: true
+      - title: Google Photos
+        description: Online Photo Backup
+        icon: >-
+          https://1000logos.net/wp-content/uploads/2020/05/Google-Photos-logo-400x400.png
+        url: https://photos.google.com/
+        target: newtab
+        id: 6_836_googlephotos
+        statusCheck: true
+      - title: ChatGPT
+        description: Chat IA 
+        icon: >-
+          https://caudit.edu.au/static/2824726dcd465eb7976705870823f066/79fd0/CHATGPT_1_fea0210557.webp
+        url: https://chat.openai.com/chat
+        target: newtab
+        id: 7_836_chatgpt
+        statusCheck: true
+      - title: Whastapp
+        description: Whastapp 
+        icon: https://1000logos.net/wp-content/uploads/2021/04/WhatsApp-logo-500x281.png
+        url: https://web.whatsapp.com/
+        target: newtab
+        id: 8_836_whatsapp
+        statusCheck: true
+  - name: Streamming
+    icon: >-
+      https://philosophy.utoronto.ca/wp-content/uploads/kisspng-art-film-logo-cinema-clip-art-movie-logo-cliparts-5ab587fb1000c4.1651552415218462670656.jpg
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Plex
+        description: Gas-Flix
+        icon: https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg
+        url: https://app.plex.tv/
+        target: newtab
+        id: 0_393_plex
+        statusCheck: true
+      - title: Netflix
+        icon: >-
+          https://w7.pngwing.com/pngs/153/31/png-transparent-netflix-macos-bigsur-icon.png
+        url: https://www.netflix.com/browse
+        target: newtab
+        id: 1_1047_netflix
+        statusCheck: true
+      - title: Amazon Prime
+        icon: https://1000logos.net/wp-content/uploads/2022/10/Amazon-Prime-Video-Logo-500x281.png
+        url: https://www.primevideo.com/
+        target: newtab
+        id: 2_1077_netflix
+        statusCheck: true
+      - title: CrunchyRoll
+        description: Anime streaming
+        icon: >-
+          https://upload.wikimedia.org/wikipedia/commons/7/7a/Crunchyroll_logo_2012v.png
+        url: https://www.crunchyroll.com/
+        target: newtab
+        id: 3_1047_crunchyroll
+        statusCheck: true
+      - title: AnimeFLV
+        description: Anime streamming
+        icon: >-
+          https://lh3.googleusercontent.com/Z_Zj3YaevE9-5GL48C8FSOOJ-Ugi4EMAAymCn3tK7byZpmgPIlY0X6Ui6zrbOWFJDQ
+        url: https://www3.animeflv.net/
+        target: newtab
+        id: 4_1047_animeflv
+        statusCheck: true
+  - name: Raspi3
+    icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/raspberrypi.png
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Portainer
+        description: Docker Manager
+        icon: >-
+          https://github.com/walkxcode/Dashboard-Icons/raw/main/png/portainer.png
+        url: http://192.168.0.5:9000/#!/home
+        target: newtab
+        id: 0_562_portainer
+      - title: Radarr
+        description: Movie Catalog
+        icon: https://radarr.video/img/logo.png
+        url: http://192.168.0.5:7878/
+        target: newtab
+        id: 1_562_radarr       
+      - title: Sonarr
+        description: Series Catalog
+        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/sonarr.png
+        url: http://192.168.0.5:8989/
+        target: newtab
+        id: 2_562_sonarr        
+      - title: Transmission
+        description: Torrent Client
+        icon: >-
+          https://transmissionbt.com/assets/images/Transmission_icon.png
+        url: http://192.168.0.5:9091/transmission/web/
+        target: newtab
+        id: 3_562_transmission        
+  - name: Home
+    icon: >-
+      https://github.com/walkxcode/Dashboard-Icons/raw/main/png/home-assistant.png
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Gas-Flix
+        description: Movies and Series from the local NAS
+        icon: https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg
+        url: http://192.168.0.3:32400/web/index.html#!/
+        target: newtab
+        id: 0_1047_gasflix
+      - title: NAS
+        description: Nas Management
+        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/qnap.png
+        url: http://192.168.0.3:8080/cgi-bin/
+        target: newtab
+        id: 1_393_nas
+      - title: Impresora
+        description: Printer Management
+        icon: >-
+          https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/HP_New_Logo_2D.svg/600px-HP_New_Logo_2D.svg.png
+        url: https://192.168.0.15/hp/device/
+        id: 2_393_impresora
+      - title: Mikrotik
+        description: Router
+        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/mikrotik.png
+        url: http://192.168.0.1/
+        target: newtab
+        id: 3_393_mikrotik
+  - name: Raspi3-B
+    icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/raspberrypi.png
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Portainer
+        description: Docker Management
+        icon: >-
+          https://github.com/walkxcode/Dashboard-Icons/raw/main/png/portainer.png
+        url: http://192.168.0.10:9000/#!/auth
+        target: newtab
+        id: 0_673_portainer
+      - title: Pi-Hole
+        description: DNS
+        icon: https://github.com/NX211/homer-icons/raw/master/png/pihole.png
+        url: http://192.168.0.10/admin/
+        target: newtab
+        id: 1_673_pihole
+      - title: Speedtest
+        description: Internet Speed Tester
+        icon: https://www.speedtest.net/s/images/ookla/index/gauge-blue-1x.png
+        url: http://192.168.0.10:8765/
+        target: newtab
+        id: 2_673_speedtest
+      - title: Uptime Kuma
+        description: Monitoring & Alerting System
+        icon: https://static-00.iconduck.com/assets.00/uptime-kuma-icon-2048x1892-iigw6pmz.png
+        url: http://192.168.0.10:3001/status/gv3
+        target: newtab
+        id: 3_673_uptime
+      - title: Jacket
+        description: Jacket
+        icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jackett-banner.png
+        url: http://192.168.0.10:9117/
+        target: newtab
+        id: 4_673_jacket
+      - title: Bazarr
+        description: Subtitle Downloader
+        icon: https://user-images.githubusercontent.com/26902309/41456760-be00043e-7081-11e8-9646-1b724037b4ff.png
+        url: http://192.168.0.10:6767/
+        target: newtab
+        id: 5_673_bazarr
+- name: Social Media
+    icon: >-
+      https://img.freepik.com/premium-vector/popular-social-media-icons_248162-157.jpg?w=2000
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: LinkedIn
+        description: Working Social Netwok
+        icon: https://cdn-icons-png.flaticon.com/512/174/174857.png
+        url: https://www.linkedin.com/feed/
+        target: newtab
+        id: 0_1115_linkedin
+        statusCheck: true
+      - title: Instagram
+        description: Photo centric Social Media
+        icon: >-
+          https://github.com/walkxcode/Dashboard-Icons/raw/main/png/instagram.png
+        url: https://www.instagram.com/
+        target: newtab
+        id: 1_1115_instagram
+        statusCheck: true
+      - title: FaceBook
+        description: Social media for old people
+        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/facebook.png
+        url: https://www.facebook.com/
+        target: newtab
+        id: 2_1115_facebook
+        statusCheck: true
+      - title: Youtube
+        description: Video Centric Social Media
+        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/youtube.png
+        url: http://youtube.com/
+        target: newtab
+        id: 3_1115_youtube
+        statusCheck: true
+  - name: Online Tools
+    icon: https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/256x256/tools.png
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 4
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: OffSec Tools
+        description: Offensive Security Tools
+        icon: https://upload.wikimedia.org/wikipedia/commons/d/d6/AE_Hackers.png
+        url: https://offsec.tools/
+        target: newtab
+        id: 15_1115_offsec
+        statusCheck: true
+      - title: Cloud Native
+        description: Cloud Native Projects
+        icon: https://www.cncf.io/wp-content/uploads/2022/08/cncf-color.svg
+        url: https://www.cncf.io/projects/
+        target: newtab
+        id: 16_1115_cnp
+        statusCheck: true
+      - title: Diagrams.Net
+        description: Online
+        icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZRihXA1Hx7zLrD4VcH33Po3W-PpJI4NR6xdnHFFhhLA&s
+        url: https://app.diagrams.net/
+        target: newtab
+        id: 4_1115_Diagrams.net
+        statusCheck: true
+      - title: ConvertUnits
+        description: Unit converter
+        icon: https://assets.materialup.com/uploads/7a4531ce-3514-44de-9145-9ae2417965d5/preview
+        url: https://www.convertunits.com/
+        target: newtab
+        id: 5_1115_ConvertUnits
+        statusCheck: true
+      - title: Subnet Calculator
+        description: Online Network Calculator
+        icon: https://apprecs.org/ios/images/app-icons/256/da/342596570.jpg
+        url: https://www.subnet-calculator.com/subnet.php?net_class=C
+        target: newtab
+        id: 6_1115_SubnetCalc
+        statusCheck: true
+      - title: DNS Checker
+        description: DNS Checker 
+        icon: https://robertleggett.blog/wp-content/uploads/2019/11/dns-logo.jpg
+        url: https://dnschecker.org/
+        target: newtab
+        id: 7_1115_DnsCheck
+        statusCheck: true
+      - title: Down Detector
+        description: Service Availability
+        icon: https://static-s.aa-cdn.net/img/gp/20600006934955/UTvEwT-YmfynRl3xmyuowT4vTwvG0ECxNtH0Pfr6fnpaFXpH6duyM_yaZnkX2iQENR8=s300?v=1
+        url: https://downdetector.com.ar/
+        target: newtab
+        id: 8_1115_DownDetect
+        statusCheck: true
+      - title: Virus Total
+        description: Virus and Malware site and file checker
+        icon: https://cdn.icon-icons.com/icons2/2699/PNG/512/virustotal_logo_icon_171247.png
+        url: https://www.virustotal.com/
+        target: newtab
+        id: 9_1115_VirusTotal
+        statusCheck: true
+      - title: World Time Buddy
+        description: World time multizone clock
+        icon: https://c.tadst.com/gfx/ios/app/wc-200.png
+        url: https://www.worldtimebuddy.com/
+        target: newtab
+        id: 10_1115_WorldTimeBuddy
+        statusCheck: true
+      - title: Tiny Wow
+        description: Online tools for almost anything
+        icon: https://tinywow.com/v3/img/favicon-tinywow.svg
+        url: https://tinywow.com/
+        target: newtab
+        id: 11_1115_Tinywow
+        statusCheck: true
+      - title: GS Statcounter
+        description: Statistics
+        icon: https://ps.w.org/official-statcounter-plugin-for-wordpress/assets/icon.svg?rev=1988081
+        url: https://gs.statcounter.com/
+        target: newtab
+        id: 12_1115_statcounter
+        statusCheck: true
+      - title: QR Monkey
+        description: QR Generator
+        icon: https://www.qrcode-monkey.com/img/qr-code-monkey-logo-new-white.svg
+        url: https://www.qrcode-monkey.com/
+        target: newtab
+        id: 13_1115_qrmonkey
+        statusCheck: true
+      - title: MX Toolbox
+        description: Records Check
+        icon: https://mxtoolbox.com/Public/Images/logo_square_1900.png
+        url: https://mxtoolbox.com/
+        target: newtab
+        id: 14_1115_mxtoolbox
+        statusCheck: true
