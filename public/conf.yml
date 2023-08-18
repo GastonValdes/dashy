@@ -141,7 +141,7 @@ sections:
         url: https://www.crunchyroll.com/
         target: newtab
         id: 3_1047_crunchyroll
-        statusCheck: true
+        statusCheck: false
       - title: AnimeFLV
         description: Anime streamming
         icon: >-
