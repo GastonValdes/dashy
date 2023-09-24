@@ -397,9 +397,9 @@ sections:
         target: newtab
         id: 13_1115_qrmonkey
         statusCheck: true
-      - title: There is an IA for that
+      - title: IA for that
         description: IA tools
-        icon: https://img.freepik.com/vector-premium/estilo-linea-circuito-inteligencia-artificial-diseno-aprendizaje-automatico-tecnologia-digital-red-inteligente-ai-ilustracion-vectorial_41981-2774.jpg?w=740
+        icon: https://previews.123rf.com/images/freaktor/freaktor2002/freaktor200200308/142987272-artificial-intelligence-logo-vector-design-circuits-electronics-and-human-head-symbol-template.jpg
         url: https://theresanaiforthat.com/
         target: newtab
         id: 14_1115_iathat
