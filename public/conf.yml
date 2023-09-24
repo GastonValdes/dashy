@@ -397,10 +397,17 @@ sections:
         target: newtab
         id: 13_1115_qrmonkey
         statusCheck: true
+      - title: There is an IA for that
+        description: IA tools
+        icon: https://img.freepik.com/vector-premium/estilo-linea-circuito-inteligencia-artificial-diseno-aprendizaje-automatico-tecnologia-digital-red-inteligente-ai-ilustracion-vectorial_41981-2774.jpg?w=740
+        url: https://theresanaiforthat.com/
+        target: newtab
+        id: 14_1115_iathat
+        statusCheck: true
       - title: MX Toolbox
         description: Records Check
         icon: https://mxtoolbox.com/Public/Images/logo_square_1900.png
         url: https://mxtoolbox.com/
         target: newtab
-        id: 14_1115_mxtoolbox
+        id: 15_1115_mxtoolbox
         statusCheck: true
