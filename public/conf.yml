@@ -28,6 +28,52 @@ sections:
         timeZone: Europe/London
         format: en-GB
         hideDate: false
+  - name: Streamming
+    icon: >-
+      https://philosophy.utoronto.ca/wp-content/uploads/kisspng-art-film-logo-cinema-clip-art-movie-logo-cliparts-5ab587fb1000c4.1651552415218462670656.jpg
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Plex
+        description: Gas-Flix
+        icon: https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg
+        url: https://app.plex.tv/
+        target: newtab
+        id: 0_393_plex
+        statusCheck: true
+      - title: Netflix
+        icon: >-
+          https://w7.pngwing.com/pngs/153/31/png-transparent-netflix-macos-bigsur-icon.png
+        url: https://www.netflix.com/browse
+        target: newtab
+        id: 1_1047_netflix
+        statusCheck: true
+      - title: Amazon Prime
+        icon: https://1000logos.net/wp-content/uploads/2022/10/Amazon-Prime-Video-Logo-500x281.png
+        url: https://www.primevideo.com/
+        target: newtab
+        id: 2_1077_netflix
+        statusCheck: true
+      - title: CrunchyRoll
+        description: Anime streaming
+        icon: >-
+          https://upload.wikimedia.org/wikipedia/commons/7/7a/Crunchyroll_logo_2012v.png
+        url: https://www.crunchyroll.com/
+        target: newtab
+        id: 3_1047_crunchyroll
+        statusCheck: false
+      - title: AnimeFLV
+        description: Anime streamming
+        icon: >-
+          https://lh3.googleusercontent.com/Z_Zj3YaevE9-5GL48C8FSOOJ-Ugi4EMAAymCn3tK7byZpmgPIlY0X6Ui6zrbOWFJDQ
+        url: https://www3.animeflv.net/
+        target: newtab
+        id: 4_1047_animeflv
+        statusCheck: true
   - name: Services
     icon: >-
       https://e7.pngegg.com/pngimages/928/235/png-clipart-internet-world-wide-web-world-wide-web-consortium-world-wide-web-web-design-search-engine-optimization.png
@@ -103,52 +149,6 @@ sections:
         url: https://web.whatsapp.com/
         target: newtab
         id: 8_836_whatsapp
-        statusCheck: true
-  - name: Streamming
-    icon: >-
-      https://philosophy.utoronto.ca/wp-content/uploads/kisspng-art-film-logo-cinema-clip-art-movie-logo-cliparts-5ab587fb1000c4.1651552415218462670656.jpg
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: Plex
-        description: Gas-Flix
-        icon: https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg
-        url: https://app.plex.tv/
-        target: newtab
-        id: 0_393_plex
-        statusCheck: true
-      - title: Netflix
-        icon: >-
-          https://w7.pngwing.com/pngs/153/31/png-transparent-netflix-macos-bigsur-icon.png
-        url: https://www.netflix.com/browse
-        target: newtab
-        id: 1_1047_netflix
-        statusCheck: true
-      - title: Amazon Prime
-        icon: https://1000logos.net/wp-content/uploads/2022/10/Amazon-Prime-Video-Logo-500x281.png
-        url: https://www.primevideo.com/
-        target: newtab
-        id: 2_1077_netflix
-        statusCheck: true
-      - title: CrunchyRoll
-        description: Anime streaming
-        icon: >-
-          https://upload.wikimedia.org/wikipedia/commons/7/7a/Crunchyroll_logo_2012v.png
-        url: https://www.crunchyroll.com/
-        target: newtab
-        id: 3_1047_crunchyroll
-        statusCheck: false
-      - title: AnimeFLV
-        description: Anime streamming
-        icon: >-
-          https://lh3.googleusercontent.com/Z_Zj3YaevE9-5GL48C8FSOOJ-Ugi4EMAAymCn3tK7byZpmgPIlY0X6Ui6zrbOWFJDQ
-        url: https://www3.animeflv.net/
-        target: newtab
-        id: 4_1047_animeflv
         statusCheck: true
   - name: Raspi3
     icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/raspberrypi.png
