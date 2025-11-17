@@ -50,7 +50,7 @@ sections:
         id: 1_1047_netflix
         statusCheck: true
       - title: Amazon Prime
-        icon: https://1000logos.net/wp-content/uploads/2022/10/Amazon-Prime-Video-Logo-500x281.png
+        icon: https://static.vecteezy.com/system/resources/previews/046/437/251/non_2x/amazon-prime-logo-free-png.png
         url: https://www.primevideo.com/
         target: newtab
         id: 2_1077_netflix
@@ -91,7 +91,7 @@ sections:
         id: 1_836_bitwarden
         statusCheck: true
       - title: Outlook
-        icon: https://filestore.community.support.microsoft.com/api/images/6ad59a75-5e01-44b1-aecc-25b31984cfb3?upload=true
+        icon: https://cdn3d.iconscout.com/3d/premium/thumb/microsoft-outlook-3d-icon-download-in-png-blend-fbx-gltf-file-formats--messenger-logo-ms-office-pack-appliances-icons-8500323.png
         url: https://outlook.com
         target: newtab
         id: 2_836_outlook
@@ -231,7 +231,7 @@ sections:
         id: 2_673_speedtest
       - title: Uptime Kuma
         description: Monitoring & Alerting System
-        icon: https://static-00.iconduck.com/assets.00/uptime-kuma-icon-2048x1892-iigw6pmz.png
+        icon: https://image.pngaaa.com/820/7816820-middle.png
         url: http://192.168.0.10:3001/status/gv3
         target: newtab
         id: 3_673_uptime
@@ -391,3 +391,4 @@ sections:
         target: newtab
         id: 15_1115_mxtoolbox
         statusCheck: true
+
