@@ -93,6 +93,33 @@ sections:
         url: http://192.168.0.10:6767/
         target: newtab
         id: 5_673_bazarr
+  - name: Home
+    icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/home-assistant.png
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Gas-Flix
+        description: Movies and Series from the local NAS
+        icon: https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg
+        url: http://192.168.0.3:32400/web/index.html#!/
+        target: newtab
+        id: 0_1047_gasflix
+      - title: NAS
+        description: Nas Management
+        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/qnap.png
+        url: http://192.168.0.3:8080/cgi-bin/
+        target: newtab
+        id: 1_393_nas
+      - title: Router
+        description: Router
+        icon: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fas1.ftcdn.net%2Fv2%2Fjpg%2F03%2F60%2F13%2F10%2F1000_F_360131022_nqUyUr2COAgGhY5HZ4pBYO7W3oboejNI.jpg&sp=1774701711T6573205ba8518d40b6deb8e96060db67f5aff883b6fc16b57af045c01cb4314b
+        url: http://192.168.0.1/
+        target: newtab
+        id: 3_393_mikrotik
   - name: Streamming
     icon: https://philosophy.utoronto.ca/wp-content/uploads/kisspng-art-film-logo-cinema-clip-art-movie-logo-cliparts-5ab587fb1000c4.1651552415218462670656.jpg
     displayData:
@@ -134,6 +161,43 @@ sections:
         url: https://www3.animeflv.net/
         target: newtab
         id: 4_1047_animeflv
+        statusCheck: true
+  - name: Social Media
+    icon: https://img.freepik.com/premium-vector/popular-social-media-icons_248162-157.jpg?w=2000
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: LinkedIn
+        description: Working Social Netwok
+        icon: https://cdn-icons-png.flaticon.com/512/174/174857.png
+        url: https://www.linkedin.com/feed/
+        target: newtab
+        id: 0_1115_linkedin
+        statusCheck: true
+      - title: Instagram
+        description: Photo centric Social Media
+        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/instagram.png
+        url: https://www.instagram.com/
+        target: newtab
+        id: 1_1115_instagram
+        statusCheck: true
+      - title: FaceBook
+        description: Social media for old people
+        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/facebook.png
+        url: https://www.facebook.com/
+        target: newtab
+        id: 2_1115_facebook
+        statusCheck: true
+      - title: Youtube
+        description: Video Centric Social Media
+        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/youtube.png
+        url: http://youtube.com/
+        target: newtab
+        id: 3_1115_youtube
         statusCheck: true
   - name: Services
     icon: https://e7.pngegg.com/pngimages/928/235/png-clipart-internet-world-wide-web-world-wide-web-consortium-world-wide-web-web-design-search-engine-optimization.png
@@ -202,75 +266,6 @@ sections:
         url: https://web.whatsapp.com/
         target: newtab
         id: 8_836_whatsapp
-        statusCheck: true
-  - name: Home
-    icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/home-assistant.png
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: Gas-Flix
-        description: Movies and Series from the local NAS
-        icon: https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg
-        url: http://192.168.0.3:32400/web/index.html#!/
-        target: newtab
-        id: 0_1047_gasflix
-      - title: NAS
-        description: Nas Management
-        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/qnap.png
-        url: http://192.168.0.3:8080/cgi-bin/
-        target: newtab
-        id: 1_393_nas
-      - title: Impresora
-        description: Printer Management
-        icon: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/HP_New_Logo_2D.svg/600px-HP_New_Logo_2D.svg.png
-        url: https://192.168.0.15/hp/device/
-        id: 2_393_impresora
-      - title: Router
-        description: Router
-        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/mikrotik.png
-        url: http://192.168.0.1/
-        target: newtab
-        id: 3_393_mikrotik
-  - name: Social Media
-    icon: https://img.freepik.com/premium-vector/popular-social-media-icons_248162-157.jpg?w=2000
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: LinkedIn
-        description: Working Social Netwok
-        icon: https://cdn-icons-png.flaticon.com/512/174/174857.png
-        url: https://www.linkedin.com/feed/
-        target: newtab
-        id: 0_1115_linkedin
-        statusCheck: true
-      - title: Instagram
-        description: Photo centric Social Media
-        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/instagram.png
-        url: https://www.instagram.com/
-        target: newtab
-        id: 1_1115_instagram
-        statusCheck: true
-      - title: FaceBook
-        description: Social media for old people
-        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/facebook.png
-        url: https://www.facebook.com/
-        target: newtab
-        id: 2_1115_facebook
-        statusCheck: true
-      - title: Youtube
-        description: Video Centric Social Media
-        icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/youtube.png
-        url: http://youtube.com/
-        target: newtab
-        id: 3_1115_youtube
         statusCheck: true
   - name: Online Tools
     icon: https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/256x256/tools.png
