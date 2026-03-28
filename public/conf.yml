@@ -28,7 +28,7 @@ sections:
         format: en-GB
         hideDate: false
   - name: Raspi3
-    icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/raspberrypi.png
+    icon: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2024%2F08%2FRaspberry-Pi-Logo.png&sp=1774704444T5ac81aaea0a91779ae03cbc86f74e0eccc064ddbbe2ea1a8edeb1da2571ab48b
     displayData:
       sortBy: alphabetical
       rows: 1
@@ -67,7 +67,7 @@ sections:
         target: newtab
         id: 3_562_transmission
   - name: Raspi3-B
-    icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/raspberrypi.png
+    icon: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2024%2F08%2FRaspberry-Pi-Logo.png&sp=1774704444T5ac81aaea0a91779ae03cbc86f74e0eccc064ddbbe2ea1a8edeb1da2571ab48b
     displayData:
       sortBy: alphabetical
       rows: 1
