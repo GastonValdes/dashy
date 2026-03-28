@@ -238,7 +238,7 @@ sections:
         url: https://onedrive.live.com/
         target: newtab
         id: 4_836_onedrive
-        statusCheck: true
+        statusCheck: false
       - title: Google Drive
         description: Cloud Storage
         icon: https://logodownload.org/wp-content/uploads/2020/04/google-drive-logo-0-1.png
@@ -253,13 +253,27 @@ sections:
         target: newtab
         id: 6_836_googlephotos
         statusCheck: true
+      - title: Claude
+        description: Claude IA
+        icon: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F067%2F941%2F712%2Flarge_2x%2Fclaude-ai-logo-rounded-hd-free-png.png&sp=1774704827T2cdc4c227da71e53425772ba05a1bdafff87acb0b958cb41a050689774e489e9
+        url: https://claude.ai/new
+        target: newtab
+        id: 7_836_claude
+        statusCheck: false
+      - title: Nano Banana
+        description: Gemini IA
+        icon: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fwww.logoai.com%2Fimg%2Fai-editor%2Fintro-models%2Fnano-banana1.png&sp=1774704941T7e71847734593fadec0780886f8b8292e6da3f22acc8eb9418751fb39ef4a286
+        url: https://gemini.google/es/overview/image-generation/?hl=es-ES
+        target: newtab
+        id: 7_836_nanobanana
+        statusCheck: false
       - title: ChatGPT
         description: Chat IA
-        icon: https://caudit.edu.au/static/2824726dcd465eb7976705870823f066/79fd0/CHATGPT_1_fea0210557.webp
+        icon: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.CgCfHwb8h83t30s7BwDvMAHaHa%3Fpid%3DApi&sp=1774704698Tfc0d6e201fe37b7db0d92787ff67fd2ad7b3f5b4e6bb3612d5ee37f8dafaaffc
         url: https://chat.openai.com/chat
         target: newtab
         id: 7_836_chatgpt
-        statusCheck: true
+        statusCheck: false
       - title: Whastapp
         description: Whastapp
         icon: https://1000logos.net/wp-content/uploads/2021/04/WhatsApp-logo-500x281.png
