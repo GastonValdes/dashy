@@ -56,7 +56,7 @@ sections:
         id: 2_562_sonarr
       - title: Shelfmark
         description: Books Catalog
-        icon: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fgithub.com%2Fcalibrain%2Fshelfmark%2Fraw%2Fmain%2Fsrc%2Ffrontend%2Fpublic%2Flogo.png&sp=1774699733Tc42bea76f69c035984e51ae6f0d827846ca8b01e394ecf0ea88a3d7dcd950846
+        icon: http://192.168.0.5:8084/logo.png
         url: http://192.168.0.5:8084/
         target: newtab
         id: 2_563_shlfmark
@@ -83,7 +83,7 @@ sections:
         id: 0_673_portainer
       - title: Prowlarr
         description: Indexer
-        icon: https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.873WxnnAtz_pj1DQPMbAAwHaHa%3Fpid%3DApi&sp=1774700356Tb1733969df7eec021ed4c684ba786a6333c5c4e91b81c653e0418844bb835199
+        icon: http://192.168.0.10:9696/Content/Images/logo.png
         url: http://192.168.0.10:9696/ 
         target: newtab
         id: 4_673_prolarr
@@ -93,6 +93,12 @@ sections:
         url: http://192.168.0.10:6767/
         target: newtab
         id: 5_673_bazarr
+      - title: Seerr
+        description: Video Content Manager
+        icon: http://192.168.0.10:5055/logo_full.svg
+        url: http://192.168.0.10:5055/
+        target: newtab
+        id: 5_673_seerr
   - name: Home
     icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/home-assistant.png
     displayData:
