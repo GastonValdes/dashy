@@ -54,6 +54,12 @@ sections:
         url: http://192.168.0.5:8989/
         target: newtab
         id: 2_562_sonarr
+      - title: Lidarr
+        description: Music Catalog
+        icon: http://192.168.0.5:8686/Content/Images/logo.svg
+        url: http://192.168.0.5:8686/
+        target: newtab
+        id: 1_562_lidarr
       - title: Shelfmark
         description: Books Catalog
         icon: http://192.168.0.5:8084/logo.png
