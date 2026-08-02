@@ -32,7 +32,7 @@ sections:
     displayData:
       sortBy: alphabetical
       rows: 1
-      cols: 1
+      cols: 2
       collapsed: false
       hideForGuests: false
     items:
@@ -90,6 +90,12 @@ sections:
         url: http://192.168.0.2:5055/
         target: newtab
         id: 5_673_seerr
+      - title: Gas-Flix
+        description: Movies and Series from the local NAS
+        icon: https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg
+        url: http://192.168.0.2:32400/web/index.html#!/
+        target: newtab
+        id: 0_1047_gasflix
   - name: Home
     icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/home-assistant.png
     displayData:
@@ -99,12 +105,6 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: Gas-Flix
-        description: Movies and Series from the local NAS
-        icon: https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg
-        url: http://192.168.0.2:32400/web/index.html#!/
-        target: newtab
-        id: 0_1047_gasflix
       - title: NAS
         description: Nas Management
         icon: https://github.com/walkxcode/Dashboard-Icons/raw/main/png/qnap.png
